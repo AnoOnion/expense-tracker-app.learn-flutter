@@ -68,7 +68,7 @@ class _NewExpanseState extends State<NewExpanse> {
       ),
     );
 
-    // Navigator.pop(context);
+    Navigator.pop(context);
   }
 
   @override
@@ -81,7 +81,7 @@ class _NewExpanseState extends State<NewExpanse> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.fromLTRB(16, 48, 16, 16),
       child: Column(
         children: [
           TextField(
